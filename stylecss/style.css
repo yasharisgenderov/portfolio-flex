@@ -11,20 +11,28 @@ body {
 h1,
 h2 {
   display: inline-block;
+  display: flex;
+  align-self: flex-start;
+  padding-left: 13px;
+  padding-top: 5px;
   color: #4aaaa5;
   font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 20px;
+  height: 50px;
+  width: 100%;
+  /* margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px; */
   /* padding-top: 10px;
-    padding-bottom: 10px; */
-  padding: 10px auto;
+      padding-bottom: 10px; */
+  /* padding: 10px auto; */
   border-bottom: 2px solid #eee;
 }
 
 .header {
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
   background-color: #fff;
   width: 100%;
   height: 90px;
@@ -61,9 +69,11 @@ nav a {
 }
 
 .container {
+  display: flex;
+  justify-content: space-around;
   width: 100%;
-  padding-left: 200px;
-  padding-right: 200px;
+  /* padding-left: 200px;
+  padding-right: 200px; */
 }
 
 /* #aboutme {
@@ -76,7 +86,10 @@ nav a {
   } */
 
 main {
-  margin-top: 25px;
+  height: 640px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 110px;
   /* margin-bottom: 520px; */
 }
 #aboutme {
@@ -86,7 +99,7 @@ main {
   width: 100%;
   max-width: 660px;
   height: 400px;
-  margin-left: 220px;
+  /* margin-left: 220px; */
 }
 
 .division1 {
@@ -97,13 +110,14 @@ main {
   float: right;
   background: #fff;
   width: 300px;
-  margin-right: 180px;
+  /* margin-right: 180px; */
+  height: 160px;
 }
 
 footer {
   /* clear: both; */
-  position: absolute;
-  bottom: 0;
+  display: flex;
+  align-self: flex-end;
   width: 100%;
   border-top: 6px solid #4aaaa5;
 }
@@ -126,17 +140,15 @@ footer {
 }
 
 .content2 {
-  padding-top: 10px;
-  margin-left: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 100px;
 }
 
 .smedia {
   width: 62px;
   height: 62px;
-  /* margin-top: 10px; */
-  padding: auto;
-  margin-right: 10px;
-  margin-bottom: 40px;
 }
 
 #catimg {

@@ -1,134 +1,177 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    background: url("concrete_seamless.png");
-  }
-  
-  h1,
-  h2 {
-    display: inline-block;
-    color: #4aaaa5;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("concrete_seamless.png");
+}
+
+h1,
+h2 {
+  display: inline-block;
+  display: flex;
+  align-self: flex-start;
+  padding-left: 13px;
+  padding-top: 5px;
+  color: #4aaaa5;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  /* margin-top: 10px;
     margin-bottom: 20px;
-    margin-left: 20px;
-    /* padding-top: 10px;
+    margin-left: 20px; */
+  /* padding-top: 10px;
       padding-bottom: 10px; */
-    padding: 10px auto;
-    border-bottom: 2px solid #eee;
-  }
-  
-  .header {
-    /* position: fixed; */
-    background-color: #fff;
-    width: 100%;
-    height: 90px;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  #logo {
-    float: left;
-    background-color: #4aaaa5;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: white;
-    font-size: 30px;
-    width: 240px;
-    height: 90px;
-    text-decoration: none;
-    text-align: center;
-    padding-top: 23px;
-    box-sizing: border-box;
-  }
-  
-  nav {
-    float: right;
-    margin-top: 30px;
-  }
-  
-  nav a {
-    font-family: Arial, Helvetica, sans-serif;
-    color: #999;
-    border-left: 1px solid #ccc;
-    font-size: 18px;
-    text-decoration: none;
-    margin-left: 10px;
-    padding-left: 20px;
-  }
+  /* padding: 10px auto; */
+  border-bottom: 2px solid #eee;
+}
 
-  .container {
-    width: 100%;
-    padding-left: 200px;
-    padding-right: 200px;
-  }
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid #ccc;
+}
 
-  main {
-    margin-top: 25px;
-    /* margin-bottom: 520px; */
-  }
+#logo {
+  float: left;
+  background-color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  font-size: 30px;
+  width: 240px;
+  height: 90px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 23px;
+  box-sizing: border-box;
+}
+
+nav {
+  float: right;
+  margin-top: 30px;
+}
+
+nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999;
+  border-left: 1px solid #ccc;
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 10px;
+  padding-left: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  /* padding-left: 200px;
+  padding-right: 200px; */
+}
+
+main {
+  margin-top: 105px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* margin-bottom: 520px; */
+}
 
 #contact {
-    background: white;
-    width: 100%;
-    max-width: 600px;
-   
+  background: white;
+  width: 100%;
+  max-width: 650px;
+  height: 545px;
 }
 
-ul li{
-    margin-bottom: 10px;
-    list-style: none
+#formcontract{
+  margin-top: 15px;
 }
 
-label{
-    font-size: 25px;
+ul li {
+  margin-bottom: 25px;
+  list-style: none;
 }
 
-#name,#email,#message{
+label {
+  font-size: 25px;
+  color: #777777;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input,
+textarea {
+  width: 100%;
+  height: 35px;
+  padding-left: 10px;
+  font-size: 17px;
+  margin-bottom: 1px;
+}
+
+textarea {
+  height: 200px;
+}
+
+#submitbt{
+  padding-left:0;
+  background: #4aaaa5;
+  color: white;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #4aaaa5;
+  padding-bottom: 1px;
+}
+
+/* #name,#email,#message{
     width: 100%;
     height: 50px;
     border: 1px solid #ccc;
-}
+} */
 
-#contact{
-    margin-left: 256px;
-    float: left;
-}
 
-form{
-    margin-left: 10px;
-    margin-right: 10px;
+form {
+  margin-left: 10px;
+  margin-right: 10px;
 }
-
 
 #connectwme {
-  float: right;
   background: #fff;
   width: 300px;
-  margin-right: 303px;
+  height: 160px;
 }
 
 .content2 {
-  padding-top: 10px;
-  margin-left: 40px;
+  /* padding-top: 10px;
+  margin-left: 40px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
 }
 
 .smedia {
   width: 62px;
   height: 62px;
   /* margin-top: 10px; */
-  padding: auto;
+  /* padding: auto;
   margin-right: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 40px; */
 }
 
 footer {
   /* clear: both; */
-  position: absolute;
-  bottom: 0;
+  display: flex;
+  align-self: flex-end;
   width: 100%;
   border-top: 6px solid #4aaaa5;
 }
