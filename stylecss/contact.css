@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url("concrete_seamless.png");
+  }
+  
+  h1,
+  h2 {
+    display: inline-block;
+    color: #4aaaa5;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /* padding-top: 10px;
+      padding-bottom: 10px; */
+    padding: 10px auto;
+    border-bottom: 2px solid #eee;
+  }
+  
+  .header {
+    /* position: fixed; */
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #logo {
+    float: left;
+    background-color: #4aaaa5;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: white;
+    font-size: 30px;
+    width: 240px;
+    height: 90px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 23px;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    float: right;
+    margin-top: 30px;
+  }
+  
+  nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999;
+    border-left: 1px solid #ccc;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-left: 20px;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  main {
+    margin-top: 25px;
+    /* margin-bottom: 520px; */
+  }
+
+#contact {
+    background: white;
+    width: 100%;
+    max-width: 600px;
+   
+}
+
+ul li{
+    margin-bottom: 10px;
+    list-style: none
+}
+
+label{
+    font-size: 25px;
+}
+
+#name,#email,#message{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+
+#contact{
+    margin-left: 256px;
+    float: left;
+}
+
+form{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#connectwme {
+  float: right;
+  background: #fff;
+  width: 300px;
+  margin-right: 303px;
+}
+
+.content2 {
+  padding-top: 10px;
+  margin-left: 40px;
+}
+
+.smedia {
+  width: 62px;
+  height: 62px;
+  /* margin-top: 10px; */
+  padding: auto;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+
+footer {
+  /* clear: both; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 6px solid #4aaaa5;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #777;
+}
+
+#copyright {
+  /* position: fixed; */
+  height: 120px;
+  background: #666;
+  width: 100%;
+  /* margin-top: 50px; */
+}
+#copyright p {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
