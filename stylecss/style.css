@@ -127,12 +127,13 @@ footer {
   height: 120px;
   background: #666;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* margin-top: 50px; */
 }
 #copyright p {
   color: white;
-  text-align: center;
-  padding-top: 50px;
 }
 
 .content1 {

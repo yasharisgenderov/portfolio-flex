@@ -80,7 +80,6 @@ main {
   margin-top: 105px;
   height: 800px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   /* margin-bottom: 520px; */
 }

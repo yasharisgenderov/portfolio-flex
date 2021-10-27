@@ -80,7 +80,6 @@ nav a {
 main {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   margin-top: 105px;
   /* margin-bottom: 520px; */
   margin-bottom: 20px;
@@ -95,6 +94,7 @@ main {
   background: white;
   width: 38%;
   max-width: 660px;
+  height: 720px;
   /* margin-left: 260px; */
 }
 
