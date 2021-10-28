@@ -89,16 +89,17 @@ main {
   height: 640px;
   display: flex;
   justify-content: space-evenly;
+  align-items: flex-start;
   margin-top: 110px;
   /* margin-bottom: 520px; */
 }
 #aboutme {
-  float: left;
   background-color: #fff;
   border: 1px solid #ddd;
   width: 100%;
   max-width: 660px;
-  height: 400px;
+  padding-bottom: 10px;
+  /* height: 400px; */
   /* margin-left: 220px; */
 }
 
@@ -107,18 +108,18 @@ main {
 }
 
 #connectwme {
-  float: right;
   background: #fff;
   width: 300px;
+  padding-bottom: 10px;
   /* margin-right: 180px; */
-  height: 160px;
+  /* height: 160px; */
 }
 
 footer {
   /* clear: both; */
-  display: flex;
-  align-self: flex-end;
-  width: 100%;
+  /* display: flex;
+  align-self: flex-end; */
+  min-width: 100vh;
   border-top: 6px solid #4aaaa5;
 }
 
@@ -165,6 +166,5 @@ p {
   color: #777;
 }
 .p2 {
-  clear: both;
   margin-left: 20px;
 }
